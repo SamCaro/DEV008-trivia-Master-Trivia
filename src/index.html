@@ -3,11 +3,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trivia</title>
+    <title>MASTER TRIVIA</title>
     <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet" type="text/css" /> 
   </head>
+
   <body>
     <div id="root"></div>
+    
+        <h1 style="color: papayawhip;
+          font-family: Helvetica;
+          text-align: center;
+          background-color: yellowgreen;
+          border: 1px solid yellowgreen;">BIEVENIDAS A MASTER TRIVIA</h1>
+      
+    <div class="container">
+        <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre">
+      <button id="enviar">Comenzar</button>
+    </form>
+    
+    <p id="nombreMostrado"></p>
+          
+            <div class="preguntas" id="cajaPreguntas">
+              <section id="preg0">
+                <h3>1 - ¿Cuál es la capital de Colombia?</h3>
+                <label><input type="radio" value="1" name="preg0" onclick="respuesta(0,this)"> Medellín</label>
+                <label><input type="radio" value="2" name="preg0" onclick="respuesta(0,this)"> Barranquilla</label>
+                <label><input type="radio" value="3" name="preg0" onclick="respuesta(0,this)"> Bogotá</label>
+              </section>
+               <section id="preg1">
+                <h3>2 - ¿Cuál es la capital de Chile?</h3>
+                <label><input type="radio" value="1" name="preg1" onclick="respuesta(1,this)"> Coquimbo</label>
+                <label><input type="radio" value="2" name="preg1" onclick="respuesta(1,this)"> Santiago</label>
+                <label><input type="radio" value="3" name="preg1" onclick="respuesta(1,this)"> Calama</label>
+              </section>
+               <section id="preg3">
+                <h3>3 - ¿Quién escribió "100 años de soledad"?</h3>
+                <label><input type="radio" value="1" name="preg2" onclick="respuesta(2,this)"> Gabriel García Márquez</label>
+                <label><input type="radio" value="2" name="preg2" onclick="respuesta(2,this)"> Betty la fea</label>
+                <label><input type="radio" value="3" name="preg2" onclick="respuesta(2,this)"> Isabel Allende</label>
+              </section>
+    <br/>      
+              <button onclick="corregir()">Enviar y mostrar resultados</button>
+    <br/>
+              <h3>Respuestas acertadas: <span id="resultado"></span></h3>
+            </div>
+            <script src="script.js"></script>
+  
+            <script src="script.js"></script>
+            <script src="./script.js"></script>
+
+
+
     <script src="main.js"></script>
   </body>
 </html>

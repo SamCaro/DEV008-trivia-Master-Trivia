@@ -1,3 +1,21 @@
+Hola! 
+
+Somos Ailyn Diaz y Sam Caro, llevamos 4 dias desarrollando nuestro primer proyecto de programacion, lo cual ha sido demasiado retador.
+
+El primer dia leimos todo lo que abarcaba la Trivia, e hicmos en zoom un boceto de lo que queriamos armar.
+
+Para el segundo dia habiamos completado el Hito 1, 
+usamos etiquetas <div></div>, <imput></imput>, atributos <value></value>, eso si llenas de incentidumbre,un poco abrumadas por tanta informacion pero muy emocionadas de ir avanzando, cada paso acertando lo hibamos celebrando!!
+
+El tercer dia Uffff dificil el Hito mucho mas complejo,nuestro progreso fue mas lento lo que nos exigio tambien mas tiempo extra asi como aprender de JS function, getElementById, button.
+
+y hoy, el cuarto dia aprendimos sobre Style.display y como integrar las funciones. Nos familiarizamos con los conceptos de "none" y "block". Al final de la semana, podemos decir que nos sentimos orgullosas de lo que logramos, fue un esfuerzo en conjunto entre nosotras, nuestro squad y jedi, y también los coaches.
+
+
+Los invitamos a participar en nuestra MASTER TRIVIA!
+
+
+
 # Trivia
 
 ## Índice
